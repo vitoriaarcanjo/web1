@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar Compra</title>
+</head>
+<body>
+    <h1>Solicitar Compra de Produto ou Serviço</h1>
+
+    <form>
+        <p>Nome:<br>
+        <input type="text" name="nome"></p>
+
+        <p>E-mail:<br>
+        <input type="email" name="email"></p>
+
+        <p>Produto ou Serviço desejado:<br>
+        <select name="produto">
+            <option value="">Selecione uma opção</option>
+            <option value="site">Site Institucional</option>
+            <option value="loja">Loja Virtual</option>
+            <option value="manutencao">Manutenção Mensal</option>
+            <option value="consultoria">Consultoria Digital</option>
+        </select></p>
+
+        <p>Quantidade:<br>
+        <input type="number" name="quantidade" min="1" value="1"></p>
+
+        <p>Observações adicionais:<br>
+        <textarea name="obs" rows="4" cols="40"></textarea></p>
+
+        <p>Forma de pagamento:<br>
+        <input type="radio" name="pagamento" value="pix"> PIX<br>
+        <input type="radio" name="pagamento" value="boleto"> Boleto<br>
+        <input type="radio" name="pagamento" value="cartao"> Cartão de Crédito</p>
+
+        <p><input type="submit" value="Enviar Solicitação"></p>
+    </form>
+
+    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
+</body>
+</html>

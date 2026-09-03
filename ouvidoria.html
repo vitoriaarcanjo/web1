@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ouvidoria</title>
+</head>
+<body>
+    <h1>Ouvidoria</h1>
+
+    <form>
+        <p>Seu nome (opcional):<br>
+        <input type="text" name="nome"></p>
+
+        <p>Assunto:<br>
+        <input type="text" name="assunto"></p>
+
+        <p>Tipo de manifestação:<br>
+        <input type="radio" name="tipo" value="elogio"> Elogio<br>
+        <input type="radio" name="tipo" value="reclamacao"> Reclamação<br>
+        <input type="radio" name="tipo" value="sugestao"> Sugestão<br>
+        <input type="radio" name="tipo" value="denuncia"> Denúncia</p>
+
+        <p>Descreva aqui:<br>
+        <textarea name="texto" rows="6" cols="40" required></textarea></p>
+
+        <p>Deseja resposta? <input type="checkbox" name="resposta"></p>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
+</body>
+</html>
