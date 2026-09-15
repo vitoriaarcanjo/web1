@@ -2,32 +2,42 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Ouvidoria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouvidoria — Soluções Web</title>
 </head>
 <body>
-    <h1>Ouvidoria</h1>
 
-    <form>
-        <p>Seu nome (opcional):<br>
-        <input type="text" name="nome"></p>
+    <header>
+        <h1>Ouvidoria</h1>
+        <img src="https://picsum.photos/id/416/800/180" alt="Ouvidoria" width="800" height="180">
+    </header>
 
-        <p>Assunto:<br>
-        <input type="text" name="assunto"></p>
+    <main>
+        <section>
+            <form>
+                <p>Seu nome (opcional):<br>
+                <input type="text" name="nome" size="45"></p>
+                <p>Assunto:<br>
+                <input type="text" name="assunto" size="45"></p>
+                <p>Tipo de manifestação:<br>
+                <input type="radio" name="tipo" value="elogio"> Elogio<br>
+                <input type="radio" name="tipo" value="reclamacao"> Reclamação<br>
+                <input type="radio" name="tipo" value="sugestao"> Sugestão<br>
+                <input type="radio" name="tipo" value="denuncia"> Denúncia</p>
+                <p>Descreva aqui:<br>
+                <textarea name="texto" rows="6" cols="50" required></textarea></p>
+                <p>Deseja resposta? <input type="checkbox" name="resposta"></p>
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </section>
 
-        <p>Tipo de manifestação:<br>
-        <input type="radio" name="tipo" value="elogio"> Elogio<br>
-        <input type="radio" name="tipo" value="reclamacao"> Reclamação<br>
-        <input type="radio" name="tipo" value="sugestao"> Sugestão<br>
-        <input type="radio" name="tipo" value="denuncia"> Denúncia</p>
+        <p><a href="contate-nos.html">← Voltar para Contato</a></p>
+    </main>
 
-        <p>Descreva aqui:<br>
-        <textarea name="texto" rows="6" cols="40" required></textarea></p>
+    <footer>
+        <p><a href="index.html">← Voltar para a Página Inicial</a></p>
+    </footer>
 
-        <p>Deseja resposta? <input type="checkbox" name="resposta"></p>
-
-        <p><input type="submit" value="Enviar"></p>
-    </form>
-
-    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
 </body>
 </html>
+
