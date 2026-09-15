@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open contate-nos.html",
-            "file": "/home/arcanjo/web1/contate-nos.html"
+            "name": "Open index.html",
+            "file": "/home/arcanjo/web1/index.html"
         }
     ]
 }
