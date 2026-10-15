@@ -4,59 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contate-nos — Soluções Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header {
+            text-align: center;
+            background-color: #e8f4f8;
+            padding: 10px;
+        }
+        h2 {
+            color: #2c5aa0;
+        }
+        section {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 20px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        input, textarea, select {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #2c5aa0;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Entre em Contato Conosco</h1>
-        <img src="https://picsum.photos/id/42/800/200" alt="Fale Conosco" width="800" height="200">
+        <h1 style="color: #1a3b69; margin: 5px 0;">Entre em Contato Conosco</h1>
+        <img src="https://picsum.photos/id/416/800/200" alt="Fale Conosco" width="800" height="200" style="border: 3px solid #2c5aa0;">
     </header>
 
     <main>
         <section>
             <h2>Nossos Canais</h2>
-            <img src="https://picsum.photos/id/416/350/200" alt="Atendimento" width="350" height="200">
-            <p>📧 E-mail: contato@solucoesweb.com.br<br>
-            📞 Telefone: (85) 3000-1234<br>
-            📱 WhatsApp: (85) 98888-9999</p>
+            <img src="https://picsum.photos/id/42/350/200" alt="Atendimento" width="350" height="200" style="border: 2px solid #ccc; float: right; margin: 0 0 15px 15px;">
+            <p style="font-size: 17px; line-height: 1.8;">📧 E-mail: <strong>contato@solucoesweb.com.br</strong><br>
+            📞 Telefone: <strong>(85) 3000-1234</strong><br>
+            📱 WhatsApp: <strong>(85) 98888-9999</strong></p>
         </section>
 
         <section>
             <h2>Endereço</h2>
-            <p>Rua das Tecnologias, 100 — Sala 201<br>
+            <p style="font-size: 17px; line-height: 1.8;">Rua das Tecnologias, 100 — Sala 201<br>
             Bairro Centro — Fortaleza/CE<br>
             CEP: 60000-000</p>
         </section>
 
         <section>
-            <h3>Horário de Atendimento</h3>
-            <p>Segunda a Sexta: 08h às 12h e 14h às 18h<br>
-            Sábado: 08h às 12h<br>
-            Domingo e Feriados: Fechado</p>
+            <h3 style="color: #444;">Horário de Atendimento</h3>
+            <p style="font-size: 17px; line-height: 1.8;">Segunda a Sexta: <strong>08h às 12h e 14h às 18h</strong><br>
+            Sábado: <strong>08h às 12h</strong><br>
+            Domingo e Feriados: <strong style="color: red;">Fechado</strong></p>
         </section>
 
         <section>
             <h2>Envie sua Mensagem</h2>
             <form>
                 <p>Nome completo:<br>
-                <input type="text" name="nome" required size="40"></p>
+                <input type="text" name="nome" required size="40" style="width: 300px;"></p>
                 <p>E-mail:<br>
-                <input type="email" name="email" required size="40"></p>
+                <input type="email" name="email" required size="40" style="width: 300px;"></p>
                 <p>Telefone:<br>
-                <input type="tel" name="telefone" size="40"></p>
+                <input type="tel" name="telefone" size="40" style="width: 300px;"></p>
                 <p>Mensagem:<br>
-                <textarea name="mensagem" rows="5" cols="45"></textarea></p>
+                <textarea name="mensagem" rows="5" cols="45" style="width: 300px;"></textarea></p>
                 <p><input type="submit" value="Enviar Mensagem"></p>
             </form>
         </section>
 
-        <p>Quer ver o resultado do nosso trabalho? Conheça nosso <a href="portfolio.html">Portfólio</a>.</p>
-        <p>Prefere fazer um pedido direto? <a href="compra.html">Solicitar Compra</a> ou envie sua <a href="ouvidoria.html">Manifestação</a>.</p>
-        <p><a href="duvidas.html">Tem dúvidas? Clique aqui!</a></p>
+        <p style="text-align: center;">Quer ver o resultado do nosso trabalho? Conheça nosso <a href="portfolio.html" style="color: #2c5aa0;">Portfólio</a>.</p>
     </main>
 
     <footer>
-        <p><a href="index.html">← Voltar para a Página Inicial</a></p>
+        <p style="margin: 0;"><a href="index.html" style="color: #87ceeb;">← Voltar para a Página Inicial</a></p>
     </footer>
 
 </body>
