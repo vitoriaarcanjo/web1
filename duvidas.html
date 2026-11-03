@@ -1,102 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dúvidas — Soluções Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            text-align: center;
-            background-color: #e8f4f8;
-            padding: 20px;
-        }
-        h2 {
-            color: #2c5aa0;
-        }
-        section {
-            background-color: white;
-            padding: 20px;
-            margin: 15px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            margin-top: 20px;
-        }
-        input, textarea {
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 15px;
-        }
-        input[type="submit"] {
-            background-color: #2c5aa0;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dúvidas — Soluções Web</title>
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-    <header>
-        <h1 style="color: #1a3b69; margin: 0 0 10px 0;">Pergunte o que quiser!</h1>
-        <img src="https://picsum.photos/id/1067/800/180" alt="Dúvidas" width="800" height="180" style="border: 3px solid #2c5aa0;">
-    </header>
+<header>
+<h1>Pergunte o que quiser!</h1>
+<img src="https://picsum.photos/id/1067/800/180" alt="Dúvidas" width="800" height="180">
+</header>
 
-    <main>
-        <p style="font-size: 18px; text-align: center; color: #444;">Aqui você pode tirar todas as suas dúvidas sobre nossos produtos, serviços e funcionamento.</p>
+<main>
+<p class="intro">Aqui você pode tirar todas as suas dúvidas sobre nossos produtos, serviços e funcionamento.</p>
 
-        <section>
-            <h2 style="border-bottom: 2px solid #2c5aa0; padding-bottom: 5px;">Perguntas Frequentes</h2>
+<section>
+<h2>Perguntas Frequentes</h2>
 
-            <p style="font-weight: bold; color: #2c5aa0; font-size: 16px;">📌 Quanto tempo leva para criar um site?</p>
-            <p style="font-size: 15px; line-height: 1.6; margin: 0 0 15px 0;">Um site institucional simples fica pronto em até 7 dias úteis. Lojas virtuais e projetos maiores podem levar de 15 a 30 dias, dependendo do tamanho.</p>
+<p class="pergunta">📌 Quanto tempo leva para criar um site?</p>
+<p class="resposta">Um site institucional simples fica pronto em até 7 dias úteis. Lojas virtuais e projetos maiores podem levar de 15 a 30 dias, dependendo do tamanho.</p>
 
-            <p style="font-weight: bold; color: #2c5aa0; font-size: 16px;">📌 O site funciona no celular?</p>
-            <p style="font-size: 15px; line-height: 1.6; margin: 0 0 15px 0;">Sim! Todos os nossos projetos são responsivos, ou seja, se adaptam perfeitamente a celulares, tablets e computadores.</p>
+<p class="pergunta">📌 O site funciona no celular?</p>
+<p class="resposta">Sim! Todos os nossos projetos são responsivos, ou seja, se adaptam perfeitamente a celulares, tablets e computadores.</p>
 
-            <p style="font-weight: bold; color: #2c5aa0; font-size: 16px;">📌 Preciso saber mexer com tecnologia para gerenciar?</p>
-            <p style="font-size: 15px; line-height: 1.6; margin: 0 0 15px 0;">Não! Você receberá um painel simples para atualizar conteúdos, textos e imagens sem precisar programar.</p>
+<p class="pergunta">📌 Preciso saber mexer com tecnologia para gerenciar?</p>
+<p class="resposta">Não! Você receberá um painel simples para atualizar conteúdos, textos e imagens sem precisar programar.</p>
 
-            <p style="font-weight: bold; color: #2c5aa0; font-size: 16px;">📌 As parcelas são flexíveis?</p>
-            <p style="font-size: 15px; line-height: 1.6; margin: 0;">Sim! Oferecemos pagamento via PIX, boleto e cartão de crédito em até 12 vezes. Consulte condições especiais.</p>
-        </section>
+<p class="pergunta">📌 As parcelas são flexíveis?</p>
+<p class="resposta">Sim! Oferecemos pagamento via PIX, boleto e cartão de crédito em até 12 vezes. Consulte condições especiais.</p>
+</section>
 
-        <section>
-            <h2 style="border-bottom: 2px solid #2c5aa0; padding-bottom: 5px;">Ainda tem dúvida? Envie a sua!</h2>
-            <form>
-                <p style="font-size: 16px; font-weight: bold; color: #444;">Seu nome:<br>
-                <input type="text" name="nome" required size="45" style="width: 350px; margin-top: 5px;"></p>
+<section>
+<h2>Ainda tem dúvida? Envie a sua!</h2>
+<form>
+<p class="form-label">Seu nome:<br>
+<input type="text" name="nome" required class="form-campo"></p>
 
-                <p style="font-size: 16px; font-weight: bold; color: #444;">Seu e-mail:<br>
-                <input type="email" name="email" required size="45" style="width: 350px; margin-top: 5px;"></p>
+<p class="form-label">Seu e-mail:<br>
+<input type="email" name="email" required class="form-campo"></p>
 
-                <p style="font-size: 16px; font-weight: bold; color: #444;">Sua pergunta:<br>
-                <textarea name="duvida" rows="5" cols="50" required style="width: 350px; margin-top: 5px;"></textarea></p>
+<p class="form-label">Sua pergunta:<br>
+<textarea name="duvida" rows="5" cols="50" required class="form-textarea"></textarea></p>
 
-                <p style="margin-top: 15px;"><input type="submit" value="Enviar Dúvida"></p>
-            </form>
-        </section>
+<p class="btn-enviar"><input type="submit" value="Enviar Dúvida"></p>
+</form>
+</section>
 
-        <p style="text-align: center; font-size: 17px; margin: 20px;">Prefere falar diretamente conosco? Vá para a página de <a href="contate-nos.html" style="color: #2c5aa0; font-weight: bold; text-decoration: none;">Contato</a>.</p>
-    </main>
+<p class="link-contato">Prefere falar diretamente conosco? Vá para a página de <a href="contate-nos.html">Contato</a>.</p>
+</main>
 
-    <footer>
-        <p style="margin: 0; font-size: 15px;"><a href="index.html" style="color: #87ceeb; text-decoration: none;">← Voltar para a Página Inicial</a></p>
-    </footer>
+<footer>
+<p><a href="index.html">← Voltar para a Página Inicial</a></p>
+</footer>
 
 </body>
 </html>
-

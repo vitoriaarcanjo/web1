@@ -1,74 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ouvidoria — Soluções Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        header {
-            text-align: center;
-            background-color: #e8f4f8;
-            padding: 10px;
-        }
-        section {
-            background-color: white;
-            padding: 15px;
-            margin: 15px 20px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        input[type="submit"] {
-            background-color: #2c5aa0;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ouvidoria — Soluções Web</title>
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-    <header>
-        <h1 style="color: #1a3b69; margin: 5px 0;">Ouvidoria</h1>
-        <img src="https://picsum.photos/id/42/800/180" alt="Ouvidoria" width="800" height="180" style="border: 3px solid #2c5aa0;">
-    </header>
+<header>
+<h1>Ouvidoria</h1>
+<img src="https://picsum.photos/id/42/800/180" alt="Ouvidoria" width="800" height="180">
+</header>
 
-    <main>
-        <section>
-            <form>
-                <p style="font-size: 16px;">Seu nome (opcional):<br>
-                <input type="text" name="nome" size="45" style="padding: 5px; border: 1px solid #ccc;"></p>
-                <p style="font-size: 16px;">Assunto:<br>
-                <input type="text" name="assunto" size="45" style="padding: 5px; border: 1px solid #ccc;"></p>
-                <p style="font-size: 16px;">Tipo de manifestação:<br>
-                <input type="radio" name="tipo" value="elogio"> Elogio<br>
-                <input type="radio" name="tipo" value="reclamacao"> Reclamação<br>
-                <input type="radio" name="tipo" value="sugestao"> Sugestão<br>
-                <input type="radio" name="tipo" value="denuncia"> Denúncia</p>
-                <p style="font-size: 16px;">Descreva aqui:<br>
-                <textarea name="texto" rows="6" cols="50" required style="padding: 5px; border: 1px solid #ccc;"></textarea></p>
-                <p style="font-size: 16px;">Deseja resposta? <input type="checkbox" name="resposta" style="margin-left: 5px;"></p>
-                <p><input type="submit" value="Enviar"></p>
-            </form>
-        </section>
+<main>
+<section>
+<form>
+<p class="form-ouvidoria">Seu nome (opcional):<br>
+<input type="text" name="nome" size="45" class="campo-ouvidoria"></p>
 
-        <p style="text-align: center; font-size: 16px;"><a href="contate-nos.html" style="color: #2c5aa0;">← Voltar para Contato</a></p>
-    </main>
+<p class="form-ouvidoria">Assunto:<br>
+<input type="text" name="assunto" size="45" class="campo-ouvidoria"></p>
 
-    <footer>
-        <p style="margin: 0;"><a href="index.html" style="color: #87ceeb;">← Voltar para a Página Inicial</a></p>
-    </footer>
+<p class="form-ouvidoria">Tipo de manifestação:<br>
+<label class="opcao-radio"><input type="radio" name="tipo" value="elogio"> Elogio</label><br>
+<label class="opcao-radio"><input type="radio" name="tipo" value="reclamacao"> Reclamação</label><br>
+<label class="opcao-radio"><input type="radio" name="tipo" value="sugestao"> Sugestão</label><br>
+<label class="opcao-radio"><input type="radio" name="tipo" value="denuncia"> Denúncia</label>
+</p>
+
+<p class="form-ouvidoria">Descreva aqui:<br>
+<textarea name="texto" rows="6" cols="50" required class="texto-ouvidoria"></textarea></p>
+
+<p class="form-ouvidoria">Deseja resposta? <input type="checkbox" name="resposta" class="checkbox-ouvidoria"></p>
+
+<p class="btn-envio"><input type="submit" value="Enviar"></p>
+</form>
+</section>
+
+<p class="link-voltar-contato"><a href="contate-nos.html">← Voltar para Contato</a></p>
+</main>
+
+<footer>
+<p><a href="index.html">← Voltar para a Página Inicial</a></p>
+</footer>
 
 </body>
 </html>
