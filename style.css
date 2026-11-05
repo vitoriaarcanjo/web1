@@ -1,0 +1,871 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e0f5; /* fundo roxo clarinho */
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    background-color: #7b1fa2;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ÁREA ASIDE + MAIN — LADO A LADO */
+.conteudo {
+    display: flex;
+    min-height: 500px;
+}
+
+/* MENU LATERAL ESQUERDO */
+aside {
+    width: 25%;
+    background-color: #d1c4e9;
+    padding: 20px;
+    border-right: 3px solid #7b1fa2;
+}
+
+aside h3 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+aside h3:first-child {
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    color: #7b1fa2;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+aside a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside p {
+    color: #2d0c5e;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 75%;
+    background-color: white;
+    padding: 25px;
+}
+
+main h2 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+main h2:first-child {
+    margin-top: 0;
+}
+
+main img {
+    border: 3px solid #b39ddb;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+main p {
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e0f5; /* fundo roxinho claro */
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #4b0082; /* roxo escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    border: 4px solid #9370db; /* roxo médio */
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    background-color: #7b1fa2; /* roxo vibrante */
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ÁREA LATERAL + CONTEÚDO */
+.conteudo {
+    display: flex;
+    min-height: 500px;
+}
+
+aside {
+    width: 25%;
+    background-color: #d1c4e9; /* roxo bem claro */
+    padding: 20px;
+    border-right: 3px solid #7b1fa2;
+}
+
+aside h3 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+aside h3:first-child {
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    color: #7b1fa2;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+aside a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside p {
+    color: #2d0c5e;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 75%;
+    background-color: white;
+    padding: 25px;
+}
+
+main h2, main h3 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+main img {
+    border: 3px solid #b39ddb;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+main p {
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #d1c4e9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS EXTRA PARA PRODUTOS === */
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    color: #2d0c5e;
+    margin-bottom: 20px;
+}
+
+.img-esquerda {
+    border: 3px solid #b39ddb;
+    border-radius: 6px;
+    margin: 0 20px 10px 0;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.link-extra {
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.link-extra a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-extra a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b388ff; /* 💜 FUNDO ROXO */
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+header img {
+    border: 4px solid #7b1fa2;
+    border-radius: 8px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    background-color: #7b1fa2;
+    padding: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ÁREA ASIDE + MAIN — LADO A LADO */
+.conteudo {
+    display: flex;
+    min-height: 500px;
+}
+
+aside {
+    width: 25%;
+    background-color: #d1c4e9;
+    padding: 20px;
+    border-right: 3px solid #7b1fa2;
+}
+
+aside h3 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+aside h3:first-child {
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    color: #7b1fa2;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+aside a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside p {
+    color: #2d0c5e;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 75%;
+    background-color: white;
+    padding: 25px;
+}
+
+main h2 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    color: #2d0c5e;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #4b0082;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+th.col-logo {
+    width: 80px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #b39ddb;
+}
+
+.linha-clara {
+    background-color: #f3e5f5;
+}
+
+.logo-parceiro {
+    border-radius: 50%;
+    border: 2px solid #7b1fa2;
+}
+
+.nome-parceiro {
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.contato-email {
+    color: #555;
+}
+
+.link-contato {
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.link-contato a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-contato a:hover {
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+
+footer a {
+    color: #d1c4e9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b388ff; /* 💜 FUNDO ROXO */
+}
+
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+header img {
+    border: 4px solid #7b1fa2;
+    border-radius: 8px;
+}
+
+nav {
+    background-color: #7b1fa2;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* LAYOUT LADO A LADO — IGUAL O DESENHO */
+.conteudo {
+    display: flex;
+    min-height: 500px;
+}
+
+aside {
+    width: 25%;
+    background-color: #d1c4e9;
+    padding: 20px;
+    border-right: 3px solid #7b1fa2;
+}
+
+aside h3 {
+    color: #4b0082;
+    margin: 20px 0 10px 0;
+}
+
+aside h3:first-child {
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    color: #7b1fa2;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+aside a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside p {
+    color: #2d0c5e;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+main {
+    width: 75%;
+    background-color: white;
+    padding: 25px;
+}
+
+main h2 {
+    color: #4b0082;
+    text-align: center;
+    border-bottom: 2px solid #7b1fa2;
+    padding-bottom: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    color: #2d0c5e;
+    margin-bottom: 25px;
+}
+
+.projeto-item {
+    text-align: center;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.projeto-item img {
+    border: 3px solid #b39ddb;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.check {
+    color: green;
+    font-weight: bold;
+}
+
+.contato-link {
+    text-align: center;
+    font-size: 17px;
+    margin: 25px 0 10px 0;
+}
+
+.contato-link a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contato-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #d1c4e9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS DA PÁGINA CONTATO === */
+
+.dados-contato {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #2d0c5e;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dados-contato strong {
+    color: #4b0082;
+}
+
+.link-voltar {
+    text-align: center;
+    font-size: 17px;
+    margin: 25px 0 10px 0;
+}
+
+.link-voltar a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-voltar a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS DA PÁGINA CATÁLOGO === */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #4b0082;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #b39ddb;
+}
+
+.linha-clara {
+    background-color: #f3e5f5;
+}
+
+.img-tabela {
+    border: 2px solid #b39ddb;
+    border-radius: 4px;
+}
+
+.destaque {
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.produto-nome {
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.valor {
+    color: green;
+    font-weight: bold;
+}
+
+.rodape-tabela {
+    background-color: #d1c4e9;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.link-compra {
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 0 10px 0;
+}
+
+.link-compra a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-compra a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS DA PÁGINA COMPRA === */
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d0c5e;
+    margin: 15px 0 5px 0;
+}
+
+.form-campo {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form-qtd {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.radio-opcao {
+    font-weight: normal;
+    margin-left: 5px;
+    color: #333;
+}
+
+.btn-enviar input {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn-enviar input:hover {
+    background-color: #7b1fa2;
+}
+
+.link-voltar {
+    text-align: center;
+    font-size: 17px;
+    margin: 25px 0 10px 0;
+}
+
+.link-voltar a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-voltar a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS DA PÁGINA OUVIDORIA === */
+
+.form-ouvidoria {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d0c5e;
+    margin: 15px 0 5px 0;
+}
+
+.campo-ouvidoria {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.opcao-radio {
+    font-weight: normal;
+    color: #333;
+    margin-left: 5px;
+}
+
+.texto-ouvidoria {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.btn-envio input {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn-envio input:hover {
+    background-color: #7b1fa2;
+}
+
+.link-voltar-contato {
+    text-align: center;
+    font-size: 17px;
+    margin: 25px 0 10px 0;
+}
+
+.link-voltar-contato a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-voltar-contato a:hover {
+    text-decoration: underline;
+}
+/* === ESTILOS DA PÁGINA SERVIÇOS === */
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    color: #2d0c5e;
+    margin-bottom: 25px;
+}
+
+.img-esquerda {
+    border: 3px solid #b39ddb;
+    border-radius: 6px;
+    margin: 0 20px 10px 0;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.link-extra {
+    text-align: center;
+    font-size: 17px;
+    margin: 25px 0 10px 0;
+}
+
+.link-extra a {
+    color: #7b1fa2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-extra a:hover {
+    text-decoration: underline;
+}

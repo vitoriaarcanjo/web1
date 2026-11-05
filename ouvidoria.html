@@ -3,46 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Ouvidoria — Soluções Web</title>
-<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
 <header>
-<h1>Ouvidoria</h1>
-<img src="https://picsum.photos/id/42/800/180" alt="Ouvidoria" width="800" height="180">
+    <h1>Ouvidoria</h1>
+    <img src="https://picsum.photos/id/42/800/180" alt="Ouvidoria" width="800" height="180">
 </header>
 
-<main>
-<section>
-<form>
-<p class="form-ouvidoria">Seu nome (opcional):<br>
-<input type="text" name="nome" size="45" class="campo-ouvidoria"></p>
+<nav>
+    <a href="index.html">Início</a> |
+    <a href="sobre.html">Sobre Nós</a> |
+    <a href="produtos.html">Produtos</a> |
+    <a href="servicos.html">Serviços</a> |
+    <a href="catalogo.html">Catálogo</a> |
+    <a href="parceiros.html">Parceiros</a> |
+    <a href="portfolio.html">Portfólio</a> |
+    <a href="contate-nos.html">Contato</a> |
+    <a href="duvidas.html">Dúvidas</a> |
+    <a href="ouvidoria.html">Ouvidoria</a>
+</nav>
 
-<p class="form-ouvidoria">Assunto:<br>
-<input type="text" name="assunto" size="45" class="campo-ouvidoria"></p>
+<div class="conteudo">
+    <aside>
+        <h3>Menu Lateral</h3>
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="parceiros.html">Parceiros</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contate-nos.html">Contato</a>
+        
+        
+    </aside>
 
-<p class="form-ouvidoria">Tipo de manifestação:<br>
-<label class="opcao-radio"><input type="radio" name="tipo" value="elogio"> Elogio</label><br>
-<label class="opcao-radio"><input type="radio" name="tipo" value="reclamacao"> Reclamação</label><br>
-<label class="opcao-radio"><input type="radio" name="tipo" value="sugestao"> Sugestão</label><br>
-<label class="opcao-radio"><input type="radio" name="tipo" value="denuncia"> Denúncia</label>
-</p>
+    <main>
+        <section>
+            <form>
+                <p class="form-ouvidoria">Seu nome (opcional):<br>
+                <input type="text" name="nome" class="campo-ouvidoria"></p>
 
-<p class="form-ouvidoria">Descreva aqui:<br>
-<textarea name="texto" rows="6" cols="50" required class="texto-ouvidoria"></textarea></p>
+                <p class="form-ouvidoria">Assunto:<br>
+                <input type="text" name="assunto" class="campo-ouvidoria"></p>
 
-<p class="form-ouvidoria">Deseja resposta? <input type="checkbox" name="resposta" class="checkbox-ouvidoria"></p>
+                <p class="form-ouvidoria">Tipo de manifestação:<br>
+                <label class="opcao-radio"><input type="radio" name="tipo" value="elogio"> Elogio</label><br>
+                <label class="opcao-radio"><input type="radio" name="tipo" value="reclamacao"> Reclamação</label><br>
+                <label class="opcao-radio"><input type="radio" name="tipo" value="sugestao"> Sugestão</label><br>
+                <label class="opcao-radio"><input type="radio" name="tipo" value="denuncia"> Denúncia</label>
+                </p>
 
-<p class="btn-envio"><input type="submit" value="Enviar"></p>
-</form>
-</section>
+                <p class="form-ouvidoria">Descreva aqui:<br>
+                <textarea name="texto" rows="6" cols="50" required class="texto-ouvidoria"></textarea></p>
 
-<p class="link-voltar-contato"><a href="contate-nos.html">← Voltar para Contato</a></p>
-</main>
+                <p class="form-ouvidoria">Deseja resposta? <input type="checkbox" name="resposta" class="checkbox-ouvidoria"></p>
+
+                <p class="btn-envio"><input type="submit" value="Enviar"></p>
+            </form>
+        </section>
+
+        <p class="link-voltar-contato"><a href="contate-nos.html">← Voltar para Contato</a></p>
+    </main>
+</div>
 
 <footer>
-<p><a href="index.html">← Voltar para a Página Inicial</a></p>
+    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
 </footer>
 
 </body>

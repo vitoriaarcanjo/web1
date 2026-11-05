@@ -3,58 +3,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Solicitar Compra — Soluções Web</title>
-<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
 <header>
-<h1>Solicitar Compra de Produto ou Serviço</h1>
-<img src="https://picsum.photos/id/26/800/180" alt="Solicitar Compra" width="800" height="180">
+    <h1>Solicitar Compra de Produto ou Serviço</h1>
+    <img src="https://picsum.photos/id/26/800/180" alt="Solicitar Compra" width="800" height="180">
 </header>
 
-<main>
-<section>
-<form>
-<p class="form-label">Nome completo:<br>
-<input type="text" name="nome" required class="form-campo"></p>
+<nav>
+    <a href="index.html">Início</a> |
+    <a href="sobre.html">Sobre Nós</a> |
+    <a href="produtos.html">Produtos</a> |
+    <a href="servicos.html">Serviços</a> |
+    <a href="catalogo.html">Catálogo</a> |
+    <a href="parceiros.html">Parceiros</a> |
+    <a href="portfolio.html">Portfólio</a> |
+    <a href="contate-nos.html">Contato</a> |
+    <a href="duvidas.html">Dúvidas</a> |
+    <a href="ouvidoria.html">Ouvidoria</a>
+</nav>
 
-<p class="form-label">E-mail:<br>
-<input type="email" name="email" required class="form-campo"></p>
+<div class="conteudo">
+    <aside>
+        <h3>Menu Lateral</h3>
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="parceiros.html">Parceiros</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contate-nos.html">Contato</a>
+        
+        
+    </aside>
 
-<p class="form-label">Telefone / WhatsApp:<br>
-<input type="tel" name="telefone" class="form-campo"></p>
+    <main>
+        <section>
+            <form>
+                <p class="form-label">Nome completo:<br>
+                <input type="text" name="nome" required class="form-campo"></p>
 
-<p class="form-label">Produto ou Serviço desejado:<br>
-<select name="produto" class="form-select">
-<option value="">Selecione uma opção</option>
-<option value="site">Site Institucional — R$ 1.200,00</option>
-<option value="loja">Loja Virtual — R$ 3.500,00</option>
-<option value="manutencao">Manutenção Mensal — R$ 180,00/mês</option>
-<option value="consultoria">Consultoria Digital — R$ 250,00/hora</option>
-</select></p>
+                <p class="form-label">E-mail:<br>
+                <input type="email" name="email" required class="form-campo"></p>
 
-<p class="form-label">Quantidade / Horas:<br>
-<input type="number" name="quantidade" min="1" value="1" class="form-qtd"></p>
+                <p class="form-label">Telefone / WhatsApp:<br>
+                <input type="tel" name="telefone" class="form-campo"></p>
 
-<p class="form-label">Observações adicionais:<br>
-<textarea name="obs" rows="4" cols="50" class="form-textarea"></textarea></p>
+                <p class="form-label">Produto ou Serviço desejado:<br>
+                <select name="produto" class="form-select">
+                    <option value="">Selecione uma opção</option>
+                    <option value="site">Site Institucional — R$ 1.200,00</option>
+                    <option value="loja">Loja Virtual — R$ 3.500,00</option>
+                    <option value="manutencao">Manutenção Mensal — R$ 180,00/mês</option>
+                    <option value="consultoria">Consultoria Digital — R$ 250,00/hora</option>
+                </select></p>
 
-<p class="form-label">Forma de pagamento preferida:<br>
-<label class="radio-opcao"><input type="radio" name="pagamento" value="pix"> PIX</label><br>
-<label class="radio-opcao"><input type="radio" name="pagamento" value="boleto"> Boleto Bancário</label><br>
-<label class="radio-opcao"><input type="radio" name="pagamento" value="cartao"> Cartão de Crédito</label>
-</p>
+                <p class="form-label">Quantidade / Horas:<br>
+                <input type="number" name="quantidade" min="1" value="1" class="form-qtd"></p>
 
-<p class="btn-enviar"><input type="submit" value="Enviar Solicitação"></p>
-</form>
-</section>
+                <p class="form-label">Observações adicionais:<br>
+                <textarea name="obs" rows="4" cols="50" class="form-textarea"></textarea></p>
 
-<p class="link-voltar"><a href="catalogo.html">← Voltar para o Catálogo</a></p>
-</main>
+                <p class="form-label">Forma de pagamento preferida:<br>
+                <label class="radio-opcao"><input type="radio" name="pagamento" value="pix"> PIX</label><br>
+                <label class="radio-opcao"><input type="radio" name="pagamento" value="boleto"> Boleto Bancário</label><br>
+                <label class="radio-opcao"><input type="radio" name="pagamento" value="cartao"> Cartão de Crédito</label>
+                </p>
+
+                <p class="btn-enviar"><input type="submit" value="Enviar Solicitação"></p>
+            </form>
+        </section>
+
+        <p class="link-voltar"><a href="catalogo.html">← Voltar para o Catálogo</a></p>
+    </main>
+</div>
 
 <footer>
-<p><a href="index.html">← Voltar para a Página Inicial</a></p>
+    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
 </footer>
 
 </body>

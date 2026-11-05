@@ -3,56 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Dúvidas — Soluções Web</title>
-<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
 <header>
-<h1>Pergunte o que quiser!</h1>
-<img src="https://picsum.photos/id/1067/800/180" alt="Dúvidas" width="800" height="180">
+    <h1>Pergunte o que quiser!</h1>
+    <img src="https://picsum.photos/id/1067/800/180" alt="Dúvidas" width="800" height="180">
 </header>
 
-<main>
-<p class="intro">Aqui você pode tirar todas as suas dúvidas sobre nossos produtos, serviços e funcionamento.</p>
+<nav>
+    <a href="index.html">Início</a> |
+    <a href="sobre.html">Sobre Nós</a> |
+    <a href="produtos.html">Produtos</a> |
+    <a href="servicos.html">Serviços</a> |
+    <a href="catalogo.html">Catálogo</a> |
+    <a href="parceiros.html">Parceiros</a> |
+    <a href="portfolio.html">Portfólio</a> |
+    <a href="contate-nos.html">Contato</a> |
+    <a href="duvidas.html">Dúvidas</a> |
+    <a href="ouvidoria.html">Ouvidoria</a>
+</nav>
 
-<section>
-<h2>Perguntas Frequentes</h2>
+<div class="conteudo">
+    <aside>
+        <h3>Menu Lateral</h3>
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="parceiros.html">Parceiros</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contate-nos.html">Contato</a>
+        
+        
+    </aside>
 
-<p class="pergunta">📌 Quanto tempo leva para criar um site?</p>
-<p class="resposta">Um site institucional simples fica pronto em até 7 dias úteis. Lojas virtuais e projetos maiores podem levar de 15 a 30 dias, dependendo do tamanho.</p>
+    <main>
+        <p class="intro">Aqui você pode tirar todas as suas dúvidas sobre nossos produtos, serviços e funcionamento.</p>
 
-<p class="pergunta">📌 O site funciona no celular?</p>
-<p class="resposta">Sim! Todos os nossos projetos são responsivos, ou seja, se adaptam perfeitamente a celulares, tablets e computadores.</p>
+        <section>
+            <h2>Perguntas Frequentes</h2>
+            
+            <p class="pergunta">📌 Quanto tempo leva para criar um site?</p>
+            <p class="resposta">Um site institucional simples fica pronto em até 7 dias úteis. Lojas virtuais e projetos maiores podem levar de 15 a 30 dias, dependendo do tamanho.</p>
+            
+            <p class="pergunta">📌 O site funciona no celular?</p>
+            <p class="resposta">Sim! Todos os nossos projetos são responsivos, ou seja, se adaptam perfeitamente a celulares, tablets e computadores.</p>
+            
+            <p class="pergunta">📌 Preciso saber mexer com tecnologia para gerenciar?</p>
+            <p class="resposta">Não! Você receberá um painel simples para atualizar conteúdos, textos e imagens sem precisar programar.</p>
+            
+            <p class="pergunta">📌 As parcelas são flexíveis?</p>
+            <p class="resposta">Sim! Oferecemos pagamento via PIX, boleto e cartão de crédito em até 12 vezes. Consulte condições especiais.</p>
+        </section>
 
-<p class="pergunta">📌 Preciso saber mexer com tecnologia para gerenciar?</p>
-<p class="resposta">Não! Você receberá um painel simples para atualizar conteúdos, textos e imagens sem precisar programar.</p>
+        <section>
+            <h2>Ainda tem dúvida? Envie a sua!</h2>
+            <form>
+                <p class="form-label">Seu nome:<br>
+                <input type="text" name="nome" required class="form-campo"></p>
 
-<p class="pergunta">📌 As parcelas são flexíveis?</p>
-<p class="resposta">Sim! Oferecemos pagamento via PIX, boleto e cartão de crédito em até 12 vezes. Consulte condições especiais.</p>
-</section>
+                <p class="form-label">Seu e-mail:<br>
+                <input type="email" name="email" required class="form-campo"></p>
 
-<section>
-<h2>Ainda tem dúvida? Envie a sua!</h2>
-<form>
-<p class="form-label">Seu nome:<br>
-<input type="text" name="nome" required class="form-campo"></p>
+                <p class="form-label">Sua pergunta:<br>
+                <textarea name="duvida" rows="5" cols="50" required class="form-textarea"></textarea></p>
 
-<p class="form-label">Seu e-mail:<br>
-<input type="email" name="email" required class="form-campo"></p>
+                <p class="btn-enviar"><input type="submit" value="Enviar Dúvida"></p>
+            </form>
+        </section>
 
-<p class="form-label">Sua pergunta:<br>
-<textarea name="duvida" rows="5" cols="50" required class="form-textarea"></textarea></p>
-
-<p class="btn-enviar"><input type="submit" value="Enviar Dúvida"></p>
-</form>
-</section>
-
-<p class="link-contato">Prefere falar diretamente conosco? Vá para a página de <a href="contate-nos.html">Contato</a>.</p>
-</main>
+        <p class="link-contato">Prefere falar diretamente conosco? Vá para a página de <a href="contate-nos.html">Contato</a>.</p>
+    </main>
+</div>
 
 <footer>
-<p><a href="index.html">← Voltar para a Página Inicial</a></p>
+    <p><a href="index.html">← Voltar para a Página Inicial</a></p>
 </footer>
 
 </body>
